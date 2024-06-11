@@ -1,0 +1,46 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-padding-top: 0rem;
+    height: 100%;
+}
+*, 
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: v.$primary-font;
+    font-size: 1.5rem;
+    font-optical-sizing: auto;
+    color: v.$White;
+    background-color: v.$Very-Dark-Blue;
+    min-height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p {
+    line-height: 1.5;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 41.2rem;
+}
+
+h1 {
+    margin: 0 0 5rem 0;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+
+

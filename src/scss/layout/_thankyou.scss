@@ -1,0 +1,38 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.gracias {
+
+
+    text-align: center;
+
+    &__imagen {
+        margin-bottom: 3rem;
+    }
+
+    &__nota {
+        display: inline-flex;
+        background-color: lighten(v.$Dark-Blue, 1%);
+        color: v.$Orange;
+        padding: 1rem;
+        margin-bottom: 4rem;
+        border-radius: 2rem;
+    }
+
+    &__mensaje {
+        margin: 0;
+    }
+
+    &__titulo {
+        font-size: 2.8rem;
+        margin-bottom: 2rem;
+    }
+
+    &__texto {
+        color: v.$Light-Grey;
+    }
+
+    &.oculto {
+        display: none;
+    }
+}

@@ -1,0 +1,12 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.card {
+    background: linear-gradient(
+        180deg,
+        rgba(lighten(v.$Dark-Blue, 7%), 50%),
+        rgba(darken(v.$Dark-Blue, 7%), 80%)
+    );
+    border-radius: 3rem;
+    padding: 3rem;
+}

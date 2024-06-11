@@ -1,0 +1,23 @@
+{
+  "name": "interactive-rating-component-main",
+  "version": "1.0.0",
+  "description": "Interactive Rating Component",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "keywords": [
+    "HTML",
+    "SCSS",
+    "Gulp",
+    "JS"
+  ],
+  "author": "Alexander Reyes",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.77.4"
+  }
+}
